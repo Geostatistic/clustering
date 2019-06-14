@@ -1,7 +1,7 @@
 # -------------------------------------------------------------------------------
 #
-# Domaining
-# *********
+# Clustering
+# ***********
 #
 # This SGeMS plugin ...
 #
@@ -118,7 +118,7 @@ def create_variable(grid, name, list):
 
     sgems.set_property(grid, prop_final_data_name, list)
 
-class domaining:
+class clustering:
     def __init__(self):
         pass
 
@@ -319,8 +319,8 @@ class domaining:
         return True
 
     def name(self):
-        return "domaining"
+        return "clustering"
 
 ################################################################################
 def get_plugins():
-    return ["domaining"]
+    return ["clustering"]

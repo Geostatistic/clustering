@@ -7,14 +7,14 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>576</height>
+    <height>674</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
   <property name="AlgorithmCategory" stdset="0">
-   <string>ML_DFMod</string>
+   <string>Domaining</string>
   </property>
   <property name="AlgorithmDescription" stdset="0">
    <string>Clustering domaining</string>
@@ -45,7 +45,7 @@
         </widget>
        </item>
        <item>
-        <widget class="PropertySelectorNoRegion" name="prop_cutoff" native="true"/>
+        <widget class="PropertySelectorNoRegion" name="prop_cutoff"/>
        </item>
        <item>
         <widget class="QLabel" name="label">
@@ -463,14 +463,14 @@
    <header>qtplugins/selectors.h</header>
   </customwidget>
   <customwidget>
-   <class>GsTLGroupBox</class>
-   <extends>QGroupBox</extends>
+   <class>OrderedPropertySelector</class>
+   <extends>GsTLGroupBox</extends>
    <header>qtplugins/selectors.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>OrderedPropertySelector</class>
-   <extends>GsTLGroupBox</extends>
+   <class>GsTLGroupBox</class>
+   <extends>QGroupBox</extends>
    <header>qtplugins/selectors.h</header>
    <container>1</container>
   </customwidget>
